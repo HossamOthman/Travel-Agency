@@ -1,5 +1,7 @@
 Create a web page of travel agency where we can
 book for tours and travels easily.
+
+
 •	Create a new file with the basic html structure
 •	 Create a meta tag with the name author and your name as the value.
 •	 Change the title of the page to the name of the agency.
