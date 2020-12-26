@@ -73,6 +73,7 @@ header nav ul li a:hover, footer nav ul li a:hover {
    background-size: cover;
    width: 100%;
    height: fit-content;
+   padding: 15px 0;
 }
 
 .container{
