@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hossam Othman">
+    <meta name="keywords" content="travel, vocation, trip, holiday">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Travel Wings</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="header-image"></div>
+        <h1>Travel Wings</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>|</li>
+                <li><a href="#">Flights</a></li>
+                <li>|</li>
+                <li><a href="#">Hotels</a></li>
+                <li>|</li>
+                <li><a href="#">Car Rentals</a></li>
+                <li>|</li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="background">
+            <div class="container">
+                <h2>The Journy Goes on</h2>
+                <form>
+                    <div>
+                        <div>
+                            <input type="radio" id="return" name="flight">
+                            <label for="return">Return</label>
+                            </div>
+                        <div>
+                            <input type="radio" id="oneway" name="flight">
+                            <label for="oneway">One Way</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="multicity" name="flight">
+                            <label for="multicity">Multi-city</label>
+                        </div>
+                    </div>
+
+                    <div class="search">
+                        <div>
+                            <label for="startPoint">Starting Point</label>
+                            <select name="airport" id="startPoint">
+                                <option value="" disabled selected>Select your Start Point</option>>
+                                <option value="hamburg">Hamburg</option>
+                                <option value="frankfort">Frankfort</option>
+                                <option value="amsterdam">Amsterdam</option>
+                                <option value="tallinn">Tallinn</option>
+                                <option value="london">London</option>
+                                <option value="cairo">Cairo</option>
+                            </select>
+                            <div>
+                                <input type="checkbox" id="portsNear" name="portsNear" value="addPorts">
+                                <label for="portsNear">Add Nearby Airports</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="destination">Destination</label>
+                            <select name="airport" id="destination">
+                                <option value="" disabled selected>Select your Destination Point</option>>
+                                <option value="hamburg">Hamburg</option>
+                                <option value="frankfort">Frankfort</option>
+                                <option value="amsterdam">Amsterdam</option>
+                                <option value="tallinn">Tallinn</option>
+                                <option value="london">London</option>
+                                <option value="cairo">Cairo</option>
+                            </select>
+                            <div>
+                                <input type="checkbox" id="portsNear" name="portsNear" value="addPorts">
+                                <label for="portsNear">Add Nearby Airports</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="departure">Departure</label>
+                            <input type="date" id="departure">
+                        </div>
+                        <div>
+                            <label for="return">Return</label>
+                            <input type="date" id="return">
+                        </div>
+                        <div>
+                            <label for="class">Cabin & Class</label>
+                            <select name="class" id="class">
+                                <option value="" disabled selected>Select Passengers Class</option>>
+                                <option value="economy">Economy</option>
+                                <option value="business">Business</option>
+                                <option value="firstClass">First Class</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="direct_flexible">
+                        <div>
+                            <input type="checkbox" id="direct" name="direct" value="directFlights">
+                            <label for="direct">Direct Flights Only</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="flexible" name="flexible" value="flexibleTickets">
+                            <label for="flexible">Flexible tickets only</label>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Search Flights">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <section class="services">
+            <h2>Book With Ease!</h2>
+            <div class="cards">
+                <div>
+                    <a href="#"><img src="img/airplane.jpg" alt="aeroplane"></a>
+                    <h3>Flights</h3>
+                    <p>Many airlines have new policies so you won’t lose out if your flights need to be.</p>
+                </div>
+                <div>
+                    <a href="#"><img src="img/Hotel-Vector.jpg" alt="hotel"></a>
+                    <h3>Hotels</h3>
+                    <p>It’s easy to stay flexible, you can book now then decide if it’s right to go later.</p>
+                </div>
+               
+                <div>
+                    <a href="#"><img src="img/Car_Charging_Power.jpg" alt="car rental"></a>
+                    <h3>Car Rentals</h3>
+                    <p>Keep your options open. Be free to cancel with most providers, or for a small fee.</p>
+                </div>
+            </div>
+        </section>
+        <section class="bundles">
+            <div>
+                <img src="img/Greece-3.jpg" width="100%" alt="">
+                <div class="details-slide">
+                    <h3>Greece,</h3>
+                    <span>Folegandros</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.</p>
+                    <a href="#" class="book-now">Book Now</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/vineyards-4666055_960_720.jpg" height="100%" alt="">
+                <div class="details-slide">
+                    <h3>Germany,</h3>
+                    <span>Mosel</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.</p>
+                    <a href="#" class="book-now">Book Now</a>
+                    </div>
+            </div>
+            <div>
+                <img src="img/lighthouse-5702233_960_720.jpg" height="100%" alt="">
+                <div class="details-slide">
+                    <h3>Spain,</h3>
+                    <span>La Concha Beach</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.</p>
+                    <a href="#" class="book-now">Book Now</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/beautiful_winter_scene-wallpaper-1280x768.jpg" width="100%" alt="">
+                <div class="details-slide">
+                    <h3>Finnland,</h3>
+                    <span>La Concha Beach</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.
+                    Snow and ice during the winter time has led to other means of transportation, such as sledges, skis and skates. This also led to different pastimes and sports being developed in the winter season as compared to other times of the year. Naturally, winter sports are more popular in countries with longer winter seasons.
+                    Common individual sports include cross-country skiing, alpine skiing, snowboarding, ski jumping, speed skating, figure skating, luge, skeleton, bobsleigh, ski orienteering and snowmobiling.
+                    </p>
+                    <a href="#" class="book-now">Book Now</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/neuschwanstein-701732_960_720.jpg" height="100%" alt="">
+                <div class="details-slide">
+                    <h3>Germany,</h3>
+                    <span>neuschwanstein</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.</p>
+                    <a href="#" class="book-now">Book Now</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/beach-418742_960_720.jpg" height="100%" alt="">
+                <div class="details-slide">
+                    <h3>Greece,</h3>
+                    <span>Naxos</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.</p>
+                    <a href="#" class="book-now">Book Now</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/castle-5693094_960_720.jpg" height="100%" alt="">
+                <div class="details-slide">
+                    <h3>Germany,</h3>
+                    <span>Braunfels</span>
+                    <a href="#"> Hover to Details <i class="fas fa-angle-double-right"></i><th>^^</th></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sequi minus, odio asperiores recusandae deserunt magni consectetur, expedita veritatis fugit nemo esse iste vero deleniti architecto? Beatae, possimus? Expedita, totam.</p>
+                    <a href="#" class="book-now">Book Now</a>
+                </div>
+            </div>
+            
+
+
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#header-image">Home</a></li>
+                <li>|</li>
+                <li><a href="#">Flights</a></li>
+                <li>|</li>
+                <li><a href="#">Hotels</a></li>
+                <li>|</li>
+                <li><a href="#">Car Rentals</a></li>
+                <li>|</li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <p>All right Reserved &copy; Travel Wings 2020</p>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
